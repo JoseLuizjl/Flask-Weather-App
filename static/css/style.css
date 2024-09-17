@@ -1,0 +1,151 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 60vh; 
+    position: absolute;
+    right: 0;
+    top: 20%;
+    left: 0;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #d9cbcb;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25); 
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    position: relative;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+}
+
+.current-temp {
+    font-size: 37px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 50px; 
+    left: 90px; 
+}
+
+.temp {
+    font-size: 25px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 0px; 
+    left: 15px; 
+    display: flex;
+}
+
+.country {
+    position: absolute;
+    top: 10px; 
+    right: 30px; 
+}
+
+.countrya {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.country p {
+    margin: 0; 
+    padding: 2px 0; 
+}
+
+.city {
+    position: absolute;
+    top: 60px; 
+    right: 70px; 
+    font-size: 17px;
+}
+
+.statistics {
+    position: absolute;
+    bottom: 15px; 
+    right: 30px; 
+}
+
+.statistics h1 {
+    font-size: 16px; 
+    margin: 0; 
+    padding: 2px 0; 
+    font-weight: 400;
+}
+
+.statistics h1 {
+    font-size: 16px; 
+    margin: 0; 
+    padding: 2px 0; 
+    font-weight: 400;
+}
+
+.statistics h1:first-of-type {
+    position: relative;
+    left: 15px;
+    font-size: 17px;
+}
+
+.divider {
+    width: 1px;
+    background-color: rgb(139, 112, 112);
+    height: calc(100% - 10px); 
+    margin: 0 20px;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+}
+
+input {
+    margin-bottom: 15px; 
+    width: 10%; 
+    border-radius: 25px !important; 
+}
+
+button {
+    width: auto; 
+    align-self: center; 
+}
+
+.btn-outline-custom {
+    background-color: #8677d1 !important;
+    color: #f5f5f5 !important;
+}
+
+.btn-outline-custom:hover {
+    background-color: #5e4ac5 !important;
+    color: #fff !important;
+}
